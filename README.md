@@ -1,5 +1,22 @@
 # My Habits Tracker (A Buggy Web Application)
 
+# Gestion du VPS et connexion
+
+Utilisation de aaPanel :
+Username : o0nujotp
+Password : 9e050fbb
+Adresse pour accèder au dashboard aaPanel : https://172.17.4.22:32604/92647feb
+
+Comptes utilisateurs présent sur la BDD :
+Admin :
+  email: admin@ht-buggy-wapp.fr
+  password: azertyuiop
+
+Demo :
+  email: demo@local.lab
+  password: demo@local.lab
+
+
 # Présentation du projet
 
 MyHabitTracker est une application web conçu sur une architecture MVC et qui s'inspire de l'arborsence et du fonctionnement du framework Symfony.
@@ -25,7 +42,6 @@ Les objectifs sont les suivants :
   * Pensez à mettre à jour le fichier `CHANGELOG.md`
 
 ## Lancement du projet
-
 ### Création de la base de données
 
 ```
