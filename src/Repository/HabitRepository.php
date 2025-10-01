@@ -48,7 +48,9 @@ class HabitRepository extends AbstractRepository
             . $name . "', '" 
             . $description . "', NOW())";
 
-        $query = $this->getConnection()->query($sql);
+        // Gestion des injections SQL
+        $stmt = $this->getConnection()->prepare($sql);
+        $stmt->execute();
 
         return $this->getConnection()->lastInsertId();
     }
